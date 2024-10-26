@@ -1,0 +1,67 @@
+body{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    /* width: 50%; */
+    margin-top: 60px;
+}
+.header-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    color: white;
+    background-color: rgb(86, 86, 226);
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero-left-section{
+    align-items: center;
+    margin-left: 100px;
+}
+.hero-left-section p{
+    font-weight: 300;
+    font-size: small;
+    margin-top: 20px;
+}
+.hero-left-section h1{
+    font-weight: 600;
+    font-size: 40px;
+    color:rgb(13, 13, 89) ;
+    margin-top: 50px;
+}
+.hero-left-section span{
+    color:rgb(86, 86, 226) ;
+}
+.Contact-btn{
+    margin-top: 60px;
+}
+.Services-btn{
+    margin-top: 50px;
+}
+.hero-right-section{
+    margin-top: 30px;
+    margin-right: 140px;
+}
+
