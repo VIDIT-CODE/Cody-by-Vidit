@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(6, 6, 46);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero-section-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-left-section h4{
+    color: white;
+}
+.hero-left-section h2{
+    color: white;
+}
+.hero-left-section h5{
+    color: yellow;
+    margin-top: 10px;
+}
+.hero-section-2{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.images{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.images h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 5px;
+}
+footer h3{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 3px;
+}
+.hero-section-2 h3{
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 3px;
+    margin-bottom: 5px;
+}
+@media(min-width:425px){
+ul{
+    color: white;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin-left: 75%;
+}
+.hello{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+.home{
+    background-color: blue;
+    border-radius: 10px;
+    padding: 3px;
+}
+nav img{
+    display: none;
+}
+}
+@media(max-width:425px){
+ul{
+    display: none;
+}   
+.hello{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.hero-left-section{
+    display: flex;
+    flex-direction: column;
+}
+.hero-left-section h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.hero-right-section{
+    display: flex;
+    flex-direction: column;
+}
+.hero-right-section img{
+    width: 200px;
+}
+.hero-section-1{
+    flex-direction: column;
+}
+.images{
+    flex-direction: column;
+}
+/* nav img{
+    margin-left: 15%;
+} */
+}
