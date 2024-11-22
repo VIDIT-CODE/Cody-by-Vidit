@@ -1,0 +1,336 @@
+body{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-and-section{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Real%20Estate/Photos/mainBackground.png?raw=true');
+    height: 150vh;
+    background-size: cover;
+}
+.horizontal-row hr{
+    margin: 1% 8%;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    margin-left: -40%;
+}
+ul{
+    display: flex;
+    color: white;
+    list-style: none;
+    gap: 30%;
+    margin-left: 100%;
+    margin-right: -100%;
+    cursor: pointer;
+}
+ul li:hover{
+    font-weight: 700;
+}
+section h1,p{
+    color: white;
+}
+section h1{
+    font-size: 450%;
+    font-weight: 500;
+}
+section div button{
+    background-color: rgb(81, 81, 247);
+    color: white;
+    padding: 0.5% 1%;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: 500;
+}
+.home-page{
+    margin-left: 10%;
+}
+.home-page div h1{
+    margin-top: 5%;
+    color: white;
+}
+.home-page div p{
+    margin: 4% 0% 2% 0%;
+    color: white;
+}
+.Learn-more button:hover{
+    background-color: white;
+    color:rgb(81, 81, 247);
+    cursor: pointer;
+}
+
+.five-logos{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    position: relative;
+    /* padding: 2% 2%; */
+    margin: 0px 35px;
+    bottom: 100px;
+    height: 200px;
+}
+.five-logos img{
+    width: 150px;
+    height: 35px;
+}
+.remaining-section{
+    background-color: rgb(229, 248, 248);
+}
+.nine-cards h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5% 0;
+    font-size: xx-large;
+}
+.first-three-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.first-three-cards img{
+    border-radius: 15px;
+}
+.mid-three-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.mid-three-cards img{
+    border-radius: 15px;
+}
+.last-three-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.last-three-cards img{
+    border-radius: 15px;
+}
+.card-1{
+    margin-top: -5%;
+}
+.card-3{
+    margin-top: 5%;
+}
+.card-6{
+    margin-top: 1%;
+}
+.card-5{
+    margin-top: 6%;
+}
+.card-4{
+    margin-top: 11%;
+}
+.card-7{
+    margin-top: 1%;
+}
+.card-8{
+    margin-top: 6%;
+}
+.card-9{
+    margin-top: 11%;
+}
+.card-info{
+    display: flex;
+    background-color: white;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    margin: -15% 5% 0% 5%;
+    padding: 5% 0%;   
+}
+.left p{
+    color: rgb(81, 81, 247);
+}
+.right button{
+    padding: 10% 40%;
+    font-size: 1em;
+    cursor: pointer;
+}
+.right button:hover{
+    background-color: white;
+    color:rgb(81, 81, 247);
+}
+.house-1{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    margin: 10% 0;
+}
+.house-1-left {
+    display: flex;
+    margin: 8% 0;
+}
+.house-1-left-2 img{
+    border-radius: 40px;
+    margin: -20% 0 0 -105%;
+}
+.house-1-right{
+    margin-left: -10%;
+}
+.house-1-right h2,p{
+    color: black;
+}
+.house-1-right p{
+    margin: 5% 0;
+}
+.house-1-right h2{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.house-1-right div button{
+    font-size: medium;
+    font-weight: 600;
+    padding: 2% 4%;
+}
+.house-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 0%; */
+}
+.house-2-right{
+    display: flex;
+    margin: 0;
+}
+.house-2-right-1 img{
+    border-radius: 40px;
+    margin: -20% 0 0 100%;
+    position: relative;
+}
+.house-2-right-2{
+    margin: 0%;
+}
+.house-2-left p{
+    margin: 5% 0;
+}
+.house-2-left h2{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.house-2-left div button{
+    font-size: medium;
+    font-weight: 600;
+    padding: 2% 4%;
+}
+.house-2-left{
+    margin-left: 8%;
+}
+.house-2-left div button:hover{
+    color:rgb(81, 81, 247);
+    background-color: #fff;
+    cursor: pointer;
+}
+.house-1-right div button:hover{
+    color:rgb(81, 81, 247);
+    background-color: #fff;
+    cursor: pointer;
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #6663e9;
+    margin: 0 10%;
+    border-radius: 40px;
+    padding: 5% 0;
+}
+.newsletter p{
+    color: white;
+    margin:3% 0 ;
+}
+.newsletter h1{
+    font-size: 3rem;
+}
+.newsletter form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.newsletter form div:first-child{
+    display: flex;
+    /* justify-content: ; */
+    background: #5654d1;
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+}
+.newsletter form div img{
+    margin-left: 5%;
+}
+.newsletter form input{
+    background-color: transparent;
+    border: none;
+    width: 400px;
+    color: white;
+}
+.newsletter form div button{
+    background-color: #fff;
+    color: #6663e9;
+    padding: 10% 10%;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: medium;
+    border: none;
+}
+.newsletter form button:hover{
+    background-color: rgb(81, 81, 247);
+    color: white;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    padding:7% 5%;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.footer-links{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 120px;
+    margin-right: 50px;
+}
+.footer-links ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-all-links ul li a{
+    text-decoration: none;
+    color: black;
+}
+.footer-all-links ul li a:hover{
+    cursor: pointer;
+}
+.footer-all-links ul li:first-child{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.footer-left p{
+    width: 323px;
+    font-weight: 400;
+    font-size: 20px;
+}

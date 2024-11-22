@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    background-color: #f0f4f5;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    margin: 20px 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+a:hover{
+    font-weight: 800;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+main{
+    display: flex;
+    background-image: url('https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Multi-Page%20Website/images/stethoscope.png?raw=true');
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.left-section{
+    margin-left: 100px;
+    margin-top: 5%;
+}
+.left-section h1{
+    font-size: 2rem;
+}
+.left-section p{
+    margin: 20px 0px;
+    color: grey;
+}
+button{
+    padding: 10px 30px;
+    border-radius: 40px;
+    font-weight: 600;
+    background-color: #20bc7e;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+
+.bottom-angle{
+    margin-left: 50%;
+}
+.yellow{
+    position: absolute;
+    right: 0;
+    width: 20%;
+    bottom: 20px;
+    margin-right: 5px;
+}
+.green{
+    position: absolute;
+    right: 0;
+    width: 28%;
+    bottom: 5px;
+    margin-right: 15px;
+}
+.doctor{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 85%;
+}
